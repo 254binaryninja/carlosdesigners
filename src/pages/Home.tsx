@@ -1,8 +1,17 @@
+import Bottom from "@/components/Bottom";
+import Hero from "@/components/Hero";
+import Middle from "@/components/Middle";
+import Nav from "@/components/Nav";
 
 
 function Home() {
     return (
-        <div></div>
+        <div className=" bg-amber-200">
+            <Nav/>
+            <Hero/>
+            <Middle/>
+            <Bottom/>
+        </div>
     );
 }
 
